@@ -34,7 +34,7 @@ This will prevent the machine from going to sleep (while also keeping the displa
 > :memo: As noted in the [Win32 documentation](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadexecutionstate), use of the `SetThreadExecutionState` function (which is the Win32 function called by `stay-awake.exe`) does **_not_** prevent one from putting their computer to sleep by either closing the lid on their laptop or pressing the power button.  In addition, the screen saver may still execute.
 
 ### Help
-Result of running `stay-awake --help`
+Result of running `stay-awake.exe --help`
 
 ```
 stay-awake
