@@ -57,7 +57,7 @@ powercfg -requests
 ```
 
 ## Win32 Docs
-Application utilizes [SetThreadExecutionState](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadexecutionstate) from the [Win32 API](https://docs.microsoft.com/en-us/windows/win32/)
+Application utilizes [SetThreadExecutionState](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadexecutionstate) from the [Win32 API](https://docs.microsoft.com/en-us/windows/win32/).
 
 ## Prior Implementations
 - [`C#`](https://github.com/curtisalexander/stay-awake-cs)
