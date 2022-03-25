@@ -113,7 +113,6 @@ Description ==> This value is not supported. If ES_USER_PRESENT is combined with
 
 */
 
-
 pub fn run(args: Args) -> Result<(), Box<dyn Error>> {
     // requested execution state
     let req_es = if args.display {
