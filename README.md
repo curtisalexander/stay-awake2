@@ -1,7 +1,7 @@
 # stay-awake2
 Keep a Windows machine awake
 
-<!--![stay-awake workflow](https://github.com/curtisalexander/stay-awake-rs/workflows/stay%20awake/badge.svg)-->
+![stay-awake workflow](https://github.com/curtisalexander/stay-awake2/workflows/stay%20awake/badge.svg)
 
 ## Get
 Executable binaries for Windows may be found at the [Release](https://github.com/curtisalexander/stay-awake2/releases) page.
@@ -63,3 +63,7 @@ Application utilizes [SetThreadExecutionState](https://docs.microsoft.com/en-us/
 - [`C#`](https://github.com/curtisalexander/stay-awake-cs)
 - [`Rust`](https://github.com/curtisalexander/stay-awake-rs)
     - Loads `kernel32.dll` and performs a [transmute](https://doc.rust-lang.org/stable/std/mem/fn.transmute.html) to get the function [SetThreadExecutionState](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadexecutionstate)
+
+## Alternate Tools
+- [Microsoft PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/) includes the [Awake](https://docs.microsoft.com/en-us/windows/powertoys/awake) utility
+    - It [also utilizes SetThreadExectionState](https://github.com/microsoft/PowerToys/blob/main/src/modules/awake/Awake/Core/APIHelper.cs#L66-L84) to keep a Windows machine awake
