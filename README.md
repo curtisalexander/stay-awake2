@@ -1,7 +1,7 @@
 # stay-awake2
 Keep a Windows machine awake
 
-![stay-awake workflow](https://github.com/curtisalexander/stay-awake2/workflows/stay%20awake/badge.svg)
+[![stay awake](https://github.com/curtisalexander/stay-awake2/actions/workflows/ci.yml/badge.svg)](https://github.com/curtisalexander/stay-awake2/actions/workflows/ci.yml)
 
 ## Get
 Executable binaries for Windows may be found at the [Release](https://github.com/curtisalexander/stay-awake2/releases) page.
