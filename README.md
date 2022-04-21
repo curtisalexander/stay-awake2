@@ -4,7 +4,7 @@ Keep a Windows machine awake
 [![stay awake](https://github.com/curtisalexander/stay-awake2/actions/workflows/ci.yml/badge.svg)](https://github.com/curtisalexander/stay-awake2/actions/workflows/ci.yml)
 
 ## Get
-Executable binaries for Windows may be found at the [Release](https://github.com/curtisalexander/stay-awake2/releases) page.
+Executable binaries for Windows may be found at the [Releases](https://github.com/curtisalexander/stay-awake2/releases) page.
 
 ## Usage
 The executable `stay-awake.exe` is intended to be run in a terminal in order to keep one's Windows machine awake.
